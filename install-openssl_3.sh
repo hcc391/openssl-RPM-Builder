@@ -86,4 +86,4 @@ EOF
 mkdir -p /root/rpmbuild/{BUILD,RPMS,SOURCES,SPECS,SRPMS}
 cp ~/openssl/openssl3.spec /root/rpmbuild/SPECS/openssl.spec
 
-mv openssl-3.2.1.tar.gz /root/rpmbuild/SOURCES
+mv /opt/openssl-3.2.1.tar.gz /root/rpmbuild/SOURCES
