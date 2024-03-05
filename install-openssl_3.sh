@@ -4,7 +4,7 @@
 set -e
 # Выводим, то , что делаем
 set -v
-mkdir ~/openssl && cd ~/openssl
+
 yum -y install \
     curl \
     which \
